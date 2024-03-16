@@ -1,0 +1,91 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* FLEXBOX */
+.flex {
+  display: flex;
+}
+
+.flex-align {
+  align-items: center;
+}
+
+.flex-justify {
+  justify-content: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-evenly {
+  justify-content: space-evenly;
+}
+
+.flex-between{
+  justify-content: space-between;
+}
+
+body {
+  background-color: rgb(25, 25, 25);
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CONTENITORE PRINCIPALE */
+#main-container {
+  height: 100%;
+}
+
+/* CARD */
+#card {
+  width: 350px;
+  height: 450px;
+  border-radius: 100px;
+}
+
+/* IMMAGINE DELLA CARD */
+#card-img {
+  background-image: url(assets/honey.jpg);
+  height: 70%;
+  border-radius: 100px 100px 0 0;
+  background-size: cover;
+  background-position: center;
+}
+
+/* NON SAPEVO COME CHIAMARLO */
+#quello-con-info-e-btn {
+  border-radius: 0 0 100px 100px;
+  background-color: #fef7e2;
+  height: 30%;
+}
+
+/* INFO E PREZZO PRODOTTO */
+h1 {
+  font-size: 18px;
+}
+
+#info p {
+  font-size: 14px;
+}
+
+#price {
+  font-size: 18px;
+}
+
+/* CONTAINER BOTTONE PER AGGIUNGERE AL CARRELLO */
+#add-to-cart {
+  height: 35px;
+}
+
+/* BOTTONE PER AGGIUNGERE AL CARRELLO */
+#add-to-cart button {
+  background-color: #ffdf7e;
+  border: none;
+  width: 150px;
+  border-radius: 25px;
+}
